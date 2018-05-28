@@ -1,0 +1,44 @@
+C:\Users\rotarola\source\repos\Google_Distancia_prueba\Google_Distancia_prueba\bin\Debug\Google_Distancia_prueba.exe
+C:\Users\rotarola\source\repos\Google_Distancia_prueba\Google_Distancia_prueba\bin\Debug\Google_Distancia_prueba.pdb
+C:\Users\rotarola\source\repos\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.csprojResolveAssemblyReference.cache
+C:\Users\rotarola\source\repos\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.Form1.resources
+C:\Users\rotarola\source\repos\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.Properties.Resources.resources
+C:\Users\rotarola\source\repos\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.csproj.GenerateResource.Cache
+C:\Users\rotarola\source\repos\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.csproj.CoreCompileInputs.cache
+C:\Users\rotarola\source\repos\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.exe
+C:\Users\rotarola\source\repos\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.pdb
+C:\Users\rotarola\source\repos\Google_Distancia_prueba\Google_Distancia_prueba\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Shopper\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\bin\Debug\Google_Distancia_prueba.exe
+C:\Users\Shopper\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\bin\Debug\Google_Distancia_prueba.pdb
+C:\Users\Shopper\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Shopper\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.csprojResolveAssemblyReference.cache
+C:\Users\Shopper\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.Form1.resources
+C:\Users\Shopper\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.Properties.Resources.resources
+C:\Users\Shopper\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.csproj.GenerateResource.Cache
+C:\Users\Shopper\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.csproj.CoreCompileInputs.cache
+C:\Users\Shopper\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.exe
+C:\Users\Shopper\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.pdb
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.csprojResolveAssemblyReference.cache
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.Form1.resources
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.Properties.Resources.resources
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.csproj.GenerateResource.Cache
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.csproj.CoreCompileInputs.cache
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.exe
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.pdb
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\bin\Debug\Google_Distancia_prueba.exe
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\bin\Debug\Google_Distancia_prueba.pdb
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\bin\Debug\Entidad2.dll
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba\Google_Distancia_prueba\bin\Debug\Entidad2.pdb
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_vistony\Google_Distancia_prueba\bin\Debug\Google_Distancia_prueba.exe
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_vistony\Google_Distancia_prueba\bin\Debug\Google_Distancia_prueba.pdb
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_vistony\Google_Distancia_prueba\bin\Debug\Entidad2.dll
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_vistony\Google_Distancia_prueba\bin\Debug\Newtonsoft.Json.dll
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_vistony\Google_Distancia_prueba\bin\Debug\Entidad2.pdb
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_vistony\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.csprojResolveAssemblyReference.cache
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_vistony\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.Form1.resources
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_vistony\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.Properties.Resources.resources
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_vistony\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.csproj.GenerateResource.Cache
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_vistony\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.exe
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_vistony\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.pdb
+C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_vistony\Google_Distancia_prueba\obj\Debug\Google_Distancia_prueba.csproj.CoreCompileInputs.cache
