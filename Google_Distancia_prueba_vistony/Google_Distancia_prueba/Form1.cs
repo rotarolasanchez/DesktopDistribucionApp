@@ -36,6 +36,7 @@ namespace Google_Distancia_prueba
             this.btnRutaCorta.Click += new System.EventHandler(this.btnRutaCorta_Click);
             this.btnanalizar.Click += new System.EventHandler(this.btnanalizar_Click);
             this.btnEnviarDireccion.Click += new System.EventHandler(this.btnEnviarDireccion_Click);
+            this.btnConsultarDespacho.Click += new System.EventHandler(this.btnConsultarDespacho_Click);
         }
 
         public class Rows
@@ -200,6 +201,27 @@ namespace Google_Distancia_prueba
             return dtData;
         }
 
+        public DataTable GetDataSourceDistribucion(string SQLCmd)
+        {
+            DataTable dtData = new DataTable();
+            try
+            {
+                SqlConnection cnn;
+                cnn = new SqlConnection(("Server=192.168.254.6;uid=report;pwd=Report01;Database=DistribucionApp"));
+                cnn.Open();
+                SqlDataAdapter daSource = new SqlDataAdapter(SQLCmd, cnn);
+                ;
+                daSource.Fill(dtData);
+                cnn.Close();
+                daSource.Dispose();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("An error occurred: '{0}'", e);
+            }
+            return dtData;
+        }
+
         public int GetDataSourceDistancia(string SQLCmd)
         {
 
@@ -207,7 +229,7 @@ namespace Google_Distancia_prueba
             try
             {
                 SqlConnection cnn;
-                cnn = new SqlConnection(("Server=PCFVIS-0098;uid=SA;pwd=Vistony01;Database=DistribucionApp"));
+                cnn = new SqlConnection(("Server=192.168.254.6;uid=report;pwd=Report01;Database=DistribucionApp"));
                 cnn.Open();
                 SqlCommand cmd = new SqlCommand(SQLCmd, cnn);
                 SqlDataAdapter daSource = new SqlDataAdapter(SQLCmd, cnn);
@@ -225,7 +247,10 @@ namespace Google_Distancia_prueba
         public string QueryConsultaCliente()
         {
             string QuerySQL = "";
-            QuerySQL = " SELECT codCliente,latCliente,loncliente FROM[DistribucionApp].[dbo].[Cliente] ";
+            QuerySQL = " select custnum,latitude_c,longitude_c from [dbo].[HojaDespacho]"+
+                        " where FechaDespacho = '2018-08-14'"+
+                        " and latitude_c<>'0.00000000'"+
+                        " and Latitude_c<>'1.11111000'";
             return QuerySQL;
         }
         public string QueryConsultaDistancia(string cli1,string cli2) {
@@ -333,8 +358,8 @@ namespace Google_Distancia_prueba
                                 }
                             }
                             catch (Exception ex)
-                            {
-                                MessageBox.Show(Convert.ToString(ex));
+                            {  
+                                    MessageBox.Show(Convert.ToString(ex));
                             }
                         }
                     }
@@ -347,7 +372,7 @@ namespace Google_Distancia_prueba
             String resultado = "";
             String SQLQuery = "";
             SQLQuery = QueryConsultaCliente();
-            dgvprueba.DataSource = GetDataSource(SQLQuery);
+            dgvprueba.DataSource = GetDataSourceDistribucion(SQLQuery);
         }
         public string QueryConsultaRutaCorta(string cli1, string cli2)
         {
@@ -496,6 +521,7 @@ namespace Google_Distancia_prueba
             }
             return dtData;
         }
+
         public DataTable GetDataClientesLocal(string SQLCmd)
         {
             DataTable dtData = new DataTable();
@@ -576,6 +602,8 @@ namespace Google_Distancia_prueba
                                 "and shiptonum = '"+shiptonum+"'" +
                                 " --HAVING distance< 1" +
                                 " ORDER BY distance ASC";
+
+
             //QuerySQL = "SELECT distinct(CustID) FROM[DistribucionApp].[dbo].[Hoja_Ruta]" +
             //            "where CUSTID NOT IN(select codCliente from[DistribucionApp].[dbo].[Cliente]); ";
             return QuerySQL;
@@ -1450,6 +1478,53 @@ namespace Google_Distancia_prueba
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnConsultarDespacho_Click(object sender, EventArgs e)
+        {
+            String resultado = "";
+            String SQLQuery = "";
+            SQLQuery = QueryConsultaPrueba();
+            dgvprueba.DataSource = GetDataClientesPrueba(SQLQuery);
+        }
+
+        public string QueryConsultaPrueba()
+        {
+            string QuerySQL = "";
+
+            QuerySQL = "SELECT [codoriDiscli] "+
+                       ",[coddesDiscli] "+
+                       ",[disDiscli] "+
+                       "FROM[DistribucionApp].[dbo].[DisCliente_Test2] "+
+                       "where codoridiscli in ( "+
+                       "'1','2','3','4','5','6')";
+            return QuerySQL;
+        }
+
+        public DataTable GetDataClientesPrueba(string SQLCmd)
+        {
+            DataTable dtData = new DataTable();
+            try
+            {
+                SqlConnection cnn;
+                cnn = new SqlConnection(("Server=192.168.254.6;uid=sa;pwd=W3bv1st0;Database=DistribucionApp"));
+                cnn.Open();
+                SqlDataAdapter daSource = new SqlDataAdapter(SQLCmd, cnn);
+                ;
+                daSource.Fill(dtData);
+                cnn.Close();
+                daSource.Dispose();
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("An error occurred: '{0}'", e);
+            }
+            return dtData;
         }
     }
 }

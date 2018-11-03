@@ -38,12 +38,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnConsultarDespacho = new System.Windows.Forms.Button();
+            this.btnProcesarDistancia = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dgvprueba)).BeginInit();
             this.SuspendLayout();
             // 
             // btnprocesar
             // 
-            this.btnprocesar.Location = new System.Drawing.Point(62, 156);
+            this.btnprocesar.Location = new System.Drawing.Point(38, 120);
             this.btnprocesar.Name = "btnprocesar";
             this.btnprocesar.Size = new System.Drawing.Size(121, 23);
             this.btnprocesar.TabIndex = 0;
@@ -66,7 +69,7 @@
             // 
             // btncalcular
             // 
-            this.btncalcular.Location = new System.Drawing.Point(195, 156);
+            this.btncalcular.Location = new System.Drawing.Point(186, 120);
             this.btncalcular.Name = "btncalcular";
             this.btncalcular.Size = new System.Drawing.Size(167, 23);
             this.btncalcular.TabIndex = 2;
@@ -75,7 +78,7 @@
             // 
             // btnRutaCorta
             // 
-            this.btnRutaCorta.Location = new System.Drawing.Point(368, 156);
+            this.btnRutaCorta.Location = new System.Drawing.Point(375, 120);
             this.btnRutaCorta.Name = "btnRutaCorta";
             this.btnRutaCorta.Size = new System.Drawing.Size(149, 23);
             this.btnRutaCorta.TabIndex = 3;
@@ -133,17 +136,48 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(161, 126);
+            this.label4.Location = new System.Drawing.Point(76, 103);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(218, 13);
+            this.label4.Size = new System.Drawing.Size(412, 13);
             this.label4.TabIndex = 9;
-            this.label4.Text = "OBTENER RUTA CORTA DEL DESPACHO";
+            this.label4.Text = "OBTENER RUTA CORTA DEL DESPACHO: ALGORITMO VECINO MAS CERCANO";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(99, 146);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(366, 13);
+            this.label5.TabIndex = 10;
+            this.label5.Text = "OBTENER RUTA CORTA DEL DESPACHO: ALGORITMO DEL VIAJANTE";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
+            // 
+            // btnConsultarDespacho
+            // 
+            this.btnConsultarDespacho.Location = new System.Drawing.Point(38, 163);
+            this.btnConsultarDespacho.Name = "btnConsultarDespacho";
+            this.btnConsultarDespacho.Size = new System.Drawing.Size(121, 23);
+            this.btnConsultarDespacho.TabIndex = 11;
+            this.btnConsultarDespacho.Text = "1) Obtener Despacho";
+            this.btnConsultarDespacho.UseVisualStyleBackColor = true;
+            // 
+            // btnProcesarDistancia
+            // 
+            this.btnProcesarDistancia.Location = new System.Drawing.Point(186, 162);
+            this.btnProcesarDistancia.Name = "btnProcesarDistancia";
+            this.btnProcesarDistancia.Size = new System.Drawing.Size(167, 23);
+            this.btnProcesarDistancia.TabIndex = 12;
+            this.btnProcesarDistancia.Text = "2) Procesar Distancia";
+            this.btnProcesarDistancia.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(573, 390);
+            this.Controls.Add(this.btnProcesarDistancia);
+            this.Controls.Add(this.btnConsultarDespacho);
+            this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -174,6 +208,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Button btnConsultarDespacho;
+        private System.Windows.Forms.Button btnProcesarDistancia;
     }
 }
 

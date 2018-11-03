@@ -10,3 +10,9 @@ C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_
 C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_vistony\Entidad2\obj\Debug\Entidad2.dll
 C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_vistony\Entidad2\obj\Debug\Entidad2.pdb
 C:\Users\rotarola\Documents\Visual Studio 2017\Projects\Google_Distancia_prueba_vistony\Entidad2\obj\Debug\Entidad2.csproj.CoreCompileInputs.cache
+C:\Users\Shopper\Documents\GitHub\Nueva_Webservice\DesktopDistribucionApp\Google_Distancia_prueba_vistony\Entidad2\bin\Debug\Entidad2.dll
+C:\Users\Shopper\Documents\GitHub\Nueva_Webservice\DesktopDistribucionApp\Google_Distancia_prueba_vistony\Entidad2\bin\Debug\Entidad2.pdb
+C:\Users\Shopper\Documents\GitHub\Nueva_Webservice\DesktopDistribucionApp\Google_Distancia_prueba_vistony\Entidad2\obj\Debug\Entidad2.csprojResolveAssemblyReference.cache
+C:\Users\Shopper\Documents\GitHub\Nueva_Webservice\DesktopDistribucionApp\Google_Distancia_prueba_vistony\Entidad2\obj\Debug\Entidad2.csproj.CoreCompileInputs.cache
+C:\Users\Shopper\Documents\GitHub\Nueva_Webservice\DesktopDistribucionApp\Google_Distancia_prueba_vistony\Entidad2\obj\Debug\Entidad2.dll
+C:\Users\Shopper\Documents\GitHub\Nueva_Webservice\DesktopDistribucionApp\Google_Distancia_prueba_vistony\Entidad2\obj\Debug\Entidad2.pdb
